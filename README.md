@@ -32,7 +32,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
-[![wakatime repo](https://wakatime.com/badge/github/Erik-42/openclassroom-projet_14-wealthhealth.svg)](https://wakatime.com/badge/github/Erik-42/openclassroom-projet_14-wealthhealth)
+[![wakatime repo](https://wakatime.com/badge/github/Erik-42/export-file-structure.svg)](https://wakatime.com/badge/github/Erik-42/export-file-structure)
+[![wakatime project](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704)
 
 </div>
 Permet d'exporter la structure d'un projet
@@ -53,13 +54,15 @@ Adapté le composant pour qu'il soit autonome
 ## Built with
 
 <p> </p>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=html&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg'> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=css&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/css.svg'> </a>
-<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=sass&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/sass.svg'> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=javascript&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg'> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=reactjs&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg'> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=redux&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/redux.svg'> </a>
-<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=github&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg'> </a>
+<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=html&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg' alt="HTML"> </a>
+<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=css&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/css.svg' alt="CSS"> </a>
+<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=sass&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/sass.svg' alt="SASS"> </a>
+<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=javascript&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg' alt="JavaScript"> </a>
+<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=reactjs&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg' alt="React"> </a>
+<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=redux&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/redux.svg' alt="Redux"> </a>
+<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=github&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg' alt="Github"> </a>
+<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=github&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/vercel.svg' alt="Vercel"> </a>
+<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=github&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/batch.svg' alt="Batch"> </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +76,6 @@ Adapté le composant pour qu'il soit autonome
 
     "@vercel/speed-insights": "^1.0.12",
     "@babel/register": "^7.24.6",
-    "@emotion/react": "^11.13.3",
     "@reduxjs/toolkit": "^2.2.7",
     "vercel": "^32.3.0"
     "babel": "^6.23.0",
@@ -98,7 +100,9 @@ Fork it on your computer.
 
 Si vous souhaitez exporter la structure du projet,mettez `export-file-structure.js` dans le repertoir racine et dans le terminal, lancez la commande:
 
-`node export-file-structure.js`
+```json
+node export-file-structure.js
+```
 
 ## Testez le projet
 
@@ -111,7 +115,8 @@ Github: [https://github.com/Erik-42/export-file-structure](https://https://githu
 ## License
 
 Distributed under the GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007 License. See `LICENSE.txt` for more information.
+Version 3.<br>
+See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +148,7 @@ mesen.erik@gmail.com
 [wakatime-url]: https://wakatime.com/@f84d00d8-fee3-4ca3-803d-3daa3c7053a5
 [github badge-shield]: https://img.shields.io/badge/Github-Erik--42-155?style=for-the-badge&logo=github
 [github badge-url]: https://github.com/Erik-42
-[github repo-shield]: https://img.shields.io/badge/Repositories-48-blue
+[github repo-shield]: https://img.shields.io/badge/Repositories-53-blue
 [github repo-url]: https://github.com/Erik-42/Erik-42?tab=repositories
 [github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/openclassroom-projet_14-wealthhealth
 [github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/openclassroom-projet_14-wealthhealth

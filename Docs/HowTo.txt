@@ -1,0 +1,11 @@
+Pour rendre le script Node.js autonome sans avoir besoin d'installer Node.js, il faut créer un exécutable unique à partir du projet Node.js. Voici quelques méthodes pour y parvenir :
+
+Utiliser pkg : 
+Cet outil permet de compiler le projet Node.js en un fichier exécutable autonome. 
+Une fois créé, ce fichier peut être exécuté sur une machine même si Node.js n'y est pas installé.
+
+Installez pkg :
+npm install -g pkg
+
+Ensuite, compilez votre projet :
+pkg export-file-structure.js
