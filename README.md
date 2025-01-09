@@ -27,7 +27,7 @@ Project: [![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3d
 
 </div>
 
-Ce script à pour but d'exporter la structure d'un projet au format '.json' afin d'avoir un meilleur aperçu de celui-ci
+Ce script à pour but d'exporter la structure d'un projet au format `.json` afin d'avoir un meilleur aperçu de celui-ci
 <p></p>
 
 
@@ -39,7 +39,7 @@ Copiez le fichier qui correspond à votre OS, à la racine de votre projet et do
 ```bash
 ./export-project-structure-"VOTRE-OS" 
 ```
-Un fichier "project-structure.json" va être créer à la racine de votre projet, dans lequel vous trouverez la structure de votre projet.
+Un fichier `project-structure.json` va être créer à la racine de votre projet, dans lequel vous trouverez la structure de votre projet.
 
 ## Utilisation alternative
 
@@ -59,14 +59,14 @@ si vous souhaitez exporter une partie de votre projet vous devez entrez le chemi
 const dirPath = path.join('./'); // Change this to your desired directory
 ```
 ### Utilisation autonome
-si vous ne souhaitez pas utilisez Node.js vous devez rendre le script autonome, il faut créer un exécutable unique à partir du projet Node.js:
+si vous ne souhaitez pas utilisez `Node.js` vous devez rendre le script autonome, il faut créer un exécutable unique à partir du projet:
 
 N'oubliez pas de modifier le chemin du répertoire dans le script, si vous voulez exporter une seule partie de votre projet.
 
 ###### Utiliser pkg : 
 Cet outil permet de compiler le projet en un fichier exécutable. 
 
-Une fois créé, ce fichier peut être exécuté sur une machine même si Node.js n'y est pas installé.
+Une fois créé, ce fichier peut être exécuté sur une machine même si `Node.js` n'y est pas installé.
 
 Installez pkg :
 ```bash
@@ -75,24 +75,24 @@ npm install -g pkg
 
 Ensuite, compilez votre projet :
 ```bash
-pkg export-file-project-structure.js
+pkg export-project-structure.js
 ```
 Exportez votre structure:
 placez le fichier créer à la racine de votre projet et entrez dans le terminal
 ```bash
-./export-file-structure-"VOTRE-OS"" 
+./export-project-structure-"VOTRE-OS"" 
 ```
 ou double-cliquez directement sur l'exécutable que vous aurez mis à la racine de votre projet.
 
 <div>
-<a href=https://nodejs.org>Node.js</a>
+<a href=https://nodejs.org>`Node.js`</a>
 </div>
 
 ## Testez le projet
 
-Github: [https://github.com/Erik-42/export-file-structure](https://https://github.com/Erik-42/export-file-structure)
+Github: [https://github.com/Erik-42/export-project-structure](https://https://github.com/Erik-42/export-project-structure)
 
-<a href=#>Export-File-Structure</a>
+<a href=#>Export-Project-Structure</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
