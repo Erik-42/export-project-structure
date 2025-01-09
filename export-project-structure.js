@@ -1,10 +1,10 @@
 // Si vous souhaitez exporter la structure du projet
 // Entrez dans le terminal: node export -file - project-structure.json
 
-// si vous souhaitez ne pas installez Node.js suivez les instructions suivantes:
+// si vous ne souhaitez pas installez Node.js suivez les instructions suivantes:
 // sudo npm install -g pkg
-// sudo pkg export-file-structure.js
-// ./export-file-structure-linux 
+// sudo pkg export-project-structure.js
+// ./export-project-structure-linux 
 
 const fs = require('fs');
 const path = require('path');

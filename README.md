@@ -18,11 +18,12 @@
 
 <div align="center">
 
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
-Repo: [![wakatime repo](https://wakatime.com/badge/github/Erik-42/export-file-structure.svg)](https://wakatime.com/badge/github/Erik-42/export-file-structure)
-Project: [![wakatime project](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704)
+Repo: [![wakatime](https://wakatime.com/badge/github/Erik-42/export-file-structure.svg)](https://wakatime.com/badge/github/Erik-42/export-file-structure)
+Project: [![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704)
 
 </div>
 
@@ -36,7 +37,7 @@ Ce script à pour but d'exporter la structure d'un projet au format '.json' afin
 Copiez le fichier qui correspond à votre OS, à la racine de votre projet et double-cliquez dessus ou entrez dans le terminal.
 
 ```bash
-./export-file-structure-"VOTRE-OS" 
+./export-project-structure-"VOTRE-OS" 
 ```
 Un fichier project-structure.json va être créer à la racine de votre projet, dans lequel vous trouverez la structure de votre projet.
 
@@ -134,8 +135,8 @@ mesen.erik@gmail.com
 [github repo-url]: https://github.com/Erik-42/Erik-42?tab=repositories
 [github followers-shield]: https://img.shields.io/github/followers/Erik-42
 [github followers-url]: https://github.com/followers/Erik-42
-[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/export-file-structure
-[contributors-url]: https://github.com/Erik-42/export-file-structure/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/export-project-structure
+[contributors-url]: https://github.com/Erik-42/export-project-structure/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Erik-42/export-file-structure
 [forks-url]: https://github.com/Erik-42/export-file-structure/forks
 [issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/export-file-structure
