@@ -7,7 +7,7 @@
 <div align="center">
   <h1>Export Project Structure</h1>
   <a href="https://github.com/Erik-42">
-    <img src="./src/assets/react.svg" alt="Logo Export Project Stucture" width="150" height="150">
+    <img src="assets/img/EPS.jpeg" alt="Logo Export Project Stucture" width="150" height="150">
   </a>
 </div>
 
