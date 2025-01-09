@@ -5,23 +5,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1>Export-File-Structure</h1>
+  <h1>Export Project Structure</h1>
   <a href="https://github.com/Erik-42">
-    <img src="./src/assets/react.svg" alt="Logo Export File Stucture" width="150" height="150">
+    <img src="./src/assets/react.svg" alt="Logo Export Project Stucture" width="150" height="150">
   </a>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li> <a href="#about-the-project">About The Project</a></li>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#testez-le-projet">Testez le projet</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -36,73 +25,67 @@
 [![wakatime project](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704)
 
 </div>
-Permet d'exporter la structure d'un projet
+
+Ce script à pour but d'exporter la structure d'un projet au format '.json' afin d'avoir un meilleur aperçu de celui-ci
 <p></p>
 
-### Le projet se décompose en deux phases :
-
-## Phase 1:
-
-Developper le code pour être utilisé facilement dans VsCode
-
-## Phase 2:
-
-Adapté le composant pour qu'il soit autonome
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Built with
+## Utilisation
+Placez le fichier selon votre OS à la racine de votre projet et double-cliquez dessus ou entrez dans le terminal
 
-<p> </p>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=html&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg' alt="HTML"> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=css&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/css.svg' alt="CSS"> </a>
-<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=sass&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/sass.svg' alt="SASS"> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=javascript&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg' alt="JavaScript"> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=reactjs&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg' alt="React"> </a>
-<a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=redux&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/redux.svg' alt="Redux"> </a>
-<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=github&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg' alt="Github"> </a>
-<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=github&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/vercel.svg' alt="Vercel"> </a>
-<a href= https://github.com/Erik-42?tab=repositories&q=&type=&language=github&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/batch.svg' alt="Batch"> </a>
+```bash
+./export-file-structure-"VOTRE-OS" 
+```
+Un fichier project-structure.json va être créer à la racine de votre projet
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Utilisation alternative
 
-## Installation:
+### Avec Node.js
+
+#### Placez le script à la racine de votre projet !
+
+Dans le terminal entrez: 
+
+```bash
+node export -file - project-structure.json
+```
+### Partie du projet
+si vous souhaitez exporter une partie de votre projet vous devez entrez le chemin du répertoire à exporter ici 
+
+```js
+const dirPath = path.join('./'); // Change this to your desired directory
+```
+### Utilisation autonome
+si vous ne souhaitez pas utilisez Node.js vous devez rendre le script autonome, il faut créer un exécutable unique à partir du projet Node.js:
+
+N'oubliez pas de modifier le chemin du répertoire dans le script, si vous voulez exporter une seule partie de votre projet.
+
+###### Utiliser pkg : 
+Cet outil permet de compiler le projet en un fichier exécutable. 
+
+Une fois créé, ce fichier peut être exécuté sur une machine même si Node.js n'y est pas installé.
+
+Installez pkg :
+```bash
+npm install -g pkg
+```
+
+Ensuite, compilez votre projet :
+```bash
+pkg export-file-project-structure.js
+```
+Exportez votre structure:
+placez le fichier créer à la racine de votre projet et entrez dans le terminal
+```bash
+./export-file-structure-"VOTRE-OS"" 
+```
+ou double-cliquez directement sur l'exécutable que vous aurez mis à la racine de votre projet.
 
 <div>
-<a href=https://nodejs.org>Node.js</a> & <a href=https://github.com/coreybutler/nvm-windows>NVM</a>
+<a href=https://nodejs.org>Node.js</a>
 </div>
-
-### Frontend Dependencies:
-
-    "@vercel/speed-insights": "^1.0.12",
-    "@babel/register": "^7.24.6",
-    "@reduxjs/toolkit": "^2.2.7",
-    "vercel": "^32.3.0"
-    "babel": "^6.23.0",
-    "express": "^4.21.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-redux": "^9.1.2",
-    "react-router": "^6.26.2",
-    "react-router-dom": "^6.26.2",
-    "redux": "^5.0.1",
-    "sass": "^1.79.3",
-
-## Launching the project
-
-Fork it on your computer.
-
-### Frontend
-
-### Available Scripts
-
-### Exporter la structure du projet
-
-Si vous souhaitez exporter la structure du projet,mettez `export-file-structure.js` dans le repertoir racine et dans le terminal, lancez la commande:
-
-```json
-node export-file-structure.js
-```
 
 ## Testez le projet
 

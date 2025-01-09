@@ -1,4 +1,4 @@
-# EFS (Export File Structure)
+# EPS (Export Project Structure)
 Ce script à pour but d'exporter la structure d'un projet au format '.json' afin d'avoir un meilleur aperçu de celui-ci
 
 -- Copier le fichier 'export-file-structure-"VOTRE-OS"' à la racine de votre projet.
