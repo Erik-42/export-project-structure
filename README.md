@@ -21,8 +21,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
-[![wakatime repo](https://wakatime.com/badge/github/Erik-42/export-file-structure.svg)](https://wakatime.com/badge/github/Erik-42/export-file-structure)
-[![wakatime project](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704)
+Repo: [![wakatime repo](https://wakatime.com/badge/github/Erik-42/export-file-structure.svg)](https://wakatime.com/badge/github/Erik-42/export-file-structure)
+Project: [![wakatime project](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704)
 
 </div>
 
@@ -33,12 +33,12 @@ Ce script à pour but d'exporter la structure d'un projet au format '.json' afin
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Utilisation
-Placez le fichier selon votre OS à la racine de votre projet et double-cliquez dessus ou entrez dans le terminal
+Copiez le fichier qui correspond à votre OS, à la racine de votre projet et double-cliquez dessus ou entrez dans le terminal.
 
 ```bash
 ./export-file-structure-"VOTRE-OS" 
 ```
-Un fichier project-structure.json va être créer à la racine de votre projet
+Un fichier project-structure.json va être créer à la racine de votre projet, dans lequel vous trouverez la structure de votre projet.
 
 ## Utilisation alternative
 
@@ -126,31 +126,22 @@ mesen.erik@gmail.com
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: ./images/screenshot.png
 [wakatime-shield]: https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5.svg
 [wakatime-url]: https://wakatime.com/@f84d00d8-fee3-4ca3-803d-3daa3c7053a5
 [github badge-shield]: https://img.shields.io/badge/Github-Erik--42-155?style=for-the-badge&logo=github
 [github badge-url]: https://github.com/Erik-42
-[github repo-shield]: https://img.shields.io/badge/Repositories-53-blue
+[github repo-shield]: https://img.shields.io/badge/Repositories-68-blue
 [github repo-url]: https://github.com/Erik-42/Erik-42?tab=repositories
-[github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/openclassroom-projet_14-wealthhealth
-[github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/openclassroom-projet_14-wealthhealth
 [github followers-shield]: https://img.shields.io/github/followers/Erik-42
 [github followers-url]: https://github.com/followers/Erik-42
-[github all releases-shield]: https://github.com/Erik-42/openclassroom-projet_14-wealthhealth/total
-[github all releases-url]: https://github.com/Erik-42/openclassroom-projet_14-wealthhealth/releases
-[github repo size-shield]: https://img.shields.io/github/repo-size/Erik-42/openclassroom-projet_14-wealthhealth
-[github repo size-url]: https://github.com/Erik-42/openclassroom-projet_14-wealthhealth
-[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/openclassroom-projet_14-wealthhealth
-[contributors-url]: https://github.com/Erik-42/openclassroom-projet_14-wealthhealth/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Erik-42/openclassroom-projet_14-wealthhealth
-[forks-url]: https://github.com/Erik-42/openclassroom-projet_14-wealthhealth/forks
+[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/export-file-structure
+[contributors-url]: https://github.com/Erik-42/export-file-structure/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Erik-42/export-file-structure
+[forks-url]: https://github.com/Erik-42/export-file-structure/forks
+[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/export-file-structure
+[issues-url]: https://github.com/Erik-42/export-file-structure/issues
 [stars-shield]: https://img.shields.io/github/stars/Erik-42
 [stars-url]: https://github.com/Erik-42?tab=stars
-[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/openclassroom-projet_14-wealthhealth
-[issues-url]: https://github.com/Erik-42/openclassroom-projet_14-wealthhealth/issues
-[license-shield]: https://img.shields.io/github/license/Erik-42/openclassroom-projet_14-wealthhealth
-[license-url]: https://github.com/Erik-42/openclassroom-projet_14-wealthhealth/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/erik-mesen/
 [html-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
@@ -158,4 +149,3 @@ mesen.erik@gmail.com
 [css-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [css-url]: https://www.w3.org/TR/CSS/#css
 [javascript-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[javascript-url]: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
