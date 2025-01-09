@@ -39,7 +39,7 @@ Copiez le fichier qui correspond à votre OS, à la racine de votre projet et do
 ```bash
 ./export-project-structure-"VOTRE-OS" 
 ```
-Un fichier 'project-structure.json' va être créer à la racine de votre projet, dans lequel vous trouverez la structure de votre projet.
+Un fichier "project-structure.json" va être créer à la racine de votre projet, dans lequel vous trouverez la structure de votre projet.
 
 ## Utilisation alternative
 
