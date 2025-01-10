@@ -119,7 +119,7 @@ See `LICENSE.txt` for more information.
 
 <p>https://buymeacoffee.com/meseneriko</p>
 <a href="https://buymeacoffee.com/meseneriko">
-    <img src="./images/divers/bmc_qr.png" alt="Buy My Coffee
+    <img src="./assets/img/bmc_qr.png" alt="Buy My Coffee
     " width="20%" style="background-color:grey">
 </a>  
 <p></p>
