@@ -90,7 +90,11 @@ ou double-cliquez directement sur l'exécutable que vous aurez mis à la racine 
 </div>
 
 ## Testez le projet
+### version
+  <a href="https://github.com/Erik-42/export-project-structure/releases">https://github.com/Erik-42/export-project-structure/releases</a>
+<br/>
 
+### Github
 Github: [https://github.com/Erik-42/export-project-structure](https://https://github.com/Erik-42/export-project-structure)
 
 <a href=#>Export-Project-Structure</a>
