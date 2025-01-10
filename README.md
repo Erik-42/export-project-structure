@@ -6,6 +6,7 @@
 <br />
 <div align="center">
   <h1>Export Project Structure</h1>
+  <h4>Version 1.0.0</h4>
   <a href="https://github.com/Erik-42">
     <img src="assets/img/EPS.jpeg" alt="Logo Export Project Stucture" width="150" height="150">
   </a>
