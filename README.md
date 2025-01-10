@@ -117,6 +117,13 @@ See `LICENSE.txt` for more information.
 [![Github Badge][github badge-shield]][github badge-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<p>https://buymeacoffee.com/meseneriko</p>
+<a href="https://buymeacoffee.com/meseneriko">
+    <img src="./images/divers/bmc_qr.png" alt="Buy My Coffee
+    " width="20%" style="background-color:grey">
+</a>  
+<p></p>
+<p></p>
 <a href = 'https://basillecorp.dev'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/portfolio.png"/> basillecorp.dev</a>
 
 mesen.erik@gmail.com
