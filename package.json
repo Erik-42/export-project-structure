@@ -1,13 +1,17 @@
 {
-  "name": "export-file-structure",
-  "private": true,
-  "version": "1.0.0",
+  "name": "export-project-structure",
   "type": "module",
-  "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run build"
-  },
+  "version": "1.0.0",
+  "description": "Export de la structure d'un projet au format JSON avec interface web",
+  "main": "server.js",
   "dependencies": {
-    "pkg": "^5.8.1"
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

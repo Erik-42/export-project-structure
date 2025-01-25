@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Docs",
+    "path": "Docs",
+    "type": "directory",
+    "children": []
+  },
+  {
+    "name": "assets",
+    "path": "assets",
+    "type": "directory",
+    "children": [
+      {
+        "name": "img",
+        "path": "assets/img",
+        "type": "directory",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "export-project-structure-linux",
+    "path": "export-project-structure-linux",
+    "type": "file",
+    "stats": {
+      "size": 46281870,
+      "created": "2025-01-25T14:30:27.880Z",
+      "modified": "2025-01-25T14:30:28.227Z"
+    }
+  },
+  {
+    "name": "export-project-structure-macos",
+    "path": "export-project-structure-macos",
+    "type": "file",
+    "stats": {
+      "size": 51268790,
+      "created": "2025-01-25T14:30:28.230Z",
+      "modified": "2025-01-25T14:30:28.610Z"
+    }
+  },
+  {
+    "name": "public",
+    "path": "public",
+    "type": "directory",
+    "children": []
+  }
+]

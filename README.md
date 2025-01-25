@@ -93,6 +93,7 @@ ou double-cliquez directement sur l'exécutable que vous aurez mis à la racine 
 ### version
   <a href="https://github.com/Erik-42/export-project-structure/releases">https://github.com/Erik-42/export-project-structure/releases</a>
 <br/>
+Version: 1.1.0
 
 ### Github
 Github: [https://github.com/Erik-42/export-project-structure](https://https://github.com/Erik-42/export-project-structure)
@@ -162,3 +163,39 @@ mesen.erik@gmail.com
 [css-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [css-url]: https://www.w3.org/TR/CSS/#css
 [javascript-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+# Export Project Structure
+
+Application web pour exporter la structure d'un projet au format JSON.
+
+## Installation
+
+```bash
+npm install
+```
+
+## Utilisation
+
+1. Démarrer le serveur :
+```bash
+npm start
+```
+
+2. Ouvrir http://localhost:3000 dans votre navigateur
+
+## Fonctionnalités
+
+- Interface web intuitive
+- Prévisualisation de la structure
+- Export au format JSON
+- Options configurables :
+  - Inclusion des fichiers cachés
+  - Statistiques des fichiers
+- Sauvegarde des préférences
+
+## Développement
+
+Pour le développement avec rechargement automatique :
+```bash
+npm run dev
+```

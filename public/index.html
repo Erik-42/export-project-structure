@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export Project Structure</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Export Project Structure</h1>
+        <div class="options">
+            <div class="checkbox-group">
+                <input type="checkbox" id="includeHidden" name="includeHidden">
+                <label for="includeHidden">Inclure les fichiers et dossiers cachés</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="includeStats" name="includeStats" checked>
+                <label for="includeStats">Inclure les statistiques des fichiers</label>
+            </div>
+        </div>
+        <div class="actions">
+            <button id="previewBtn" class="preview-btn">Prévisualiser</button>
+            <button id="exportBtn">Exporter la structure</button>
+        </div>
+        <div id="status"></div>
+        <div id="preview" class="preview-container">
+            <div class="tree-view"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/app.js"></script>
+</body>
+</html> 

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.checkbox-group {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.preview-btn {
+    background-color: #3498db;
+}
+
+.preview-btn:hover {
+    background-color: #2980b9;
+}
+
+#status {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.error {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+.info {
+    background-color: #d9edf7;
+    color: #31708f;
+}
+
+.preview-container {
+    margin-top: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    display: none;
+}
+
+.preview-container.visible {
+    display: block;
+}
+
+.tree-view {
+    font-family: monospace;
+}
+
+.tree-item {
+    padding: 2px 0;
+}
+
+.tree-item.directory {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.tree-item.file {
+    color: #34495e;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+} 
