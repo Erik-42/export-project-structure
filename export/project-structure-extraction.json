@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Docs",
+    "type": "directory",
+    "children": [
+      {
+        "name": "HowTo.md",
+        "type": "file"
+      },
+      {
+        "name": "export-project-structure-v1-linux",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "EPS.zip",
+    "type": "file"
+  },
+  {
+    "name": "LICENSE",
+    "type": "file"
+  },
+  {
+    "name": "README.md",
+    "type": "file"
+  },
+  {
+    "name": "assets",
+    "type": "directory",
+    "children": [
+      {
+        "name": "img",
+        "type": "directory",
+        "children": [
+          {
+            "name": "EPS.jpeg",
+            "type": "file"
+          },
+          {
+            "name": "bmc_qr.png",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "présentation projet.txt",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "divers",
+    "type": "directory",
+    "children": [
+      {
+        "name": "export-project-structure-linux-v1",
+        "type": "file"
+      },
+      {
+        "name": "export-project-structure-macos-v1",
+        "type": "file"
+      },
+      {
+        "name": "export-project-structure-v1",
+        "type": "file"
+      },
+      {
+        "name": "export-project-structure-v1-linux",
+        "type": "file"
+      },
+      {
+        "name": "export-project-structure-v1-macos",
+        "type": "file"
+      },
+      {
+        "name": "export-project-structure-v1-win.exe",
+        "type": "file"
+      },
+      {
+        "name": "export-project-structure-win-v1.exe",
+        "type": "file"
+      },
+      {
+        "name": "project-structure-extraction.json",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "export-project-structure-v1.1-linux",
+    "type": "file"
+  },
+  {
+    "name": "export-project-structure-v1.1-macos",
+    "type": "file"
+  },
+  {
+    "name": "export-project-structure-v1.1-win.exe",
+    "type": "file"
+  },
+  {
+    "name": "export-project-structure-v1.1.cjs",
+    "type": "file"
+  },
+  {
+    "name": "export-project-structure-v1.js",
+    "type": "file"
+  },
+  {
+    "name": "node_modules",
+    "type": "directory",
+    "children": []
+  },
+  {
+    "name": "package-lock.json",
+    "type": "file"
+  },
+  {
+    "name": "package.json",
+    "type": "file"
+  }
+]

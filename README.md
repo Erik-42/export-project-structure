@@ -6,12 +6,11 @@
 <br />
 <div align="center">
   <h1>Export Project Structure</h1>
-  <h4>Version 1.0.0</h4>
+<h4>Version 1.1.0</h4>
   <a href="https://github.com/Erik-42">
-    <img src="assets/img/EPS.jpeg" alt="Logo Export Project Stucture" width="150" height="150">
+    <img src="assets/img/logos/product/EPS.jpeg" alt="Logo Export Project Stucture" width="150">
   </a>
 </div>
-
 
 <!-- ABOUT THE PROJECT -->
 
@@ -19,28 +18,30 @@
 
 <div align="center">
 
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
+<br/>
 Repo: [![wakatime](https://wakatime.com/badge/github/Erik-42/export-file-structure.svg)](https://wakatime.com/badge/github/Erik-42/export-file-structure)
 Project: [![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/9f40ffc6-b660-481b-8f1e-46fa60ade704)
 
 </div>
 
 Ce script à pour but d'exporter la structure d'un projet au format `.json` afin d'avoir un meilleur aperçu de celui-ci
-<p></p>
 
+<p></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Utilisation
-Copiez le fichier qui correspond à votre OS, à la racine de votre projet et double-cliquez dessus ou entrez dans le terminal.
+
+Copiez le fichier qui correspond à votre OS, à la racine de votre projet et double-cliquez dessus.
 
 ```bash
-./export-project-structure-"VOTRE-OS" 
+export-project-structure-v1.1-VOTRE-OS
 ```
-Un fichier `project-structure.json` va être créer à la racine de votre projet, dans lequel vous trouverez la structure de votre projet.
+
+Un fichier `project-structure-extraction.json` va être créer dans un dossier `export` de votre projet, dans lequel vous trouverez la structure de votre projet.
 
 ## Utilisation alternative
 
@@ -48,56 +49,23 @@ Un fichier `project-structure.json` va être créer à la racine de votre projet
 
 #### Placez le script à la racine de votre projet !
 
-Dans le terminal entrez: 
+Dans le terminal entrez:
 
 ```bash
-node export -file - project-structure.json
+node export-project-structure-v1.1.cjs
 ```
+
 ### Partie du projet
-si vous souhaitez exporter une partie de votre projet vous devez entrez le chemin du répertoire à exporter ici 
 
-```js
-const dirPath = path.join('./'); // Change this to your desired directory
-```
-### Utilisation autonome
-si vous ne souhaitez pas utilisez `Node.js` vous devez rendre le script autonome, il faut créer un exécutable unique à partir du projet:
-
-N'oubliez pas de modifier le chemin du répertoire dans le script, si vous voulez exporter une seule partie de votre projet.
-
-###### Utiliser pkg : 
-Cet outil permet de compiler le projet en un fichier exécutable. 
-
-Une fois créé, ce fichier peut être exécuté sur une machine même si `Node.js` n'y est pas installé.
-
-Installez pkg :
-```bash
-npm install -g pkg
-```
-
-Ensuite, compilez votre projet :
-```bash
-pkg export-project-structure.js
-```
-Exportez votre structure:
-placez le fichier créer à la racine de votre projet et entrez dans le terminal
-```bash
-./export-project-structure-"VOTRE-OS"" 
-```
-ou double-cliquez directement sur l'exécutable que vous aurez mis à la racine de votre projet.
+si vous souhaitez exporter une partie de votre projet vous devez copier le fichier dans le repertoire que vous souhaitez extraire.
 
 <div>
-<a href=https://nodejs.org>`Node.js`</a>
+<a href=https://nodejs.org>Node.js</a>
 </div>
 
 ## Testez le projet
-### version
-  <a href="https://github.com/Erik-42/export-project-structure/releases">https://github.com/Erik-42/export-project-structure/releases</a>
-<br/>
 
-### Github
-Github: [https://github.com/Erik-42/export-project-structure](https://https://github.com/Erik-42/export-project-structure)
-
-<a href=#>Export-Project-Structure</a>
+Github: https://github.com/Erik-42/export-project-structure
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,23 +84,31 @@ See `LICENSE.txt` for more information.
 [![GitHub followers][github followers-shield]][github followers-url]
 [![Stargazers][stars-shield]][stars-url]
 [![GitHub repo][github repo-shield]][github repo-url]
-[![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5.svg)](https://wakatime.com/@f84d00d8-fee3-4ca3-803d-3daa3c7053a5)
+[![wakatime][wakatime-shield]][wakatime-url]
 
 [![Github Badge][github badge-shield]][github badge-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<p>https://buymeacoffee.com/meseneriko</p>
-<a href="https://buymeacoffee.com/meseneriko">
-    <img src="./assets/img/bmc_qr.png" alt="Buy My Coffee
-    " width="20%" style="background-color:grey">
-</a>  
-<p></p>
-<p></p>
 <a href = 'https://basillecorp.dev'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/portfolio.png"/> basillecorp.dev</a>
 
-mesen.erik@gmail.com
+Portfolio:<br/>
+https://bash-cv.vercel.app/
 
-</div>
+Mon CV:
+<br/>
+[version Figma](https://www.figma.com/design/H17d3Plq2fxppmKcQXfB0p/Cv-Eric-Breteau?m=auto&t=enkiu3089axN0tBm-1)<br/>
+[version PDF](assets/docs/Cv-Erik_Mesen.pdf)
+
+[https://buymeacoffee.com/meseneriko](https://buymeacoffee.com/meseneriko)
+
+<a href="https://buymeacoffee.com/meseneriko">
+    <img src="./assets/img/logos/perso/bmc_qr.png" alt="Buy My Coffee
+    " width="100" style="background-color:grey">
+</a>
+
+Contactez moi: [erik.mesen@basillecorp.dev](mailto:erik.mesen@basillecorp.dev)
+
+[<img src="./assets/img/logos/perso/logo-Erik-42-souris-v1.jpg" alt="logo Erik-42" width="75">](https://bash-cv.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

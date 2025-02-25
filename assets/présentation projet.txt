@@ -1,0 +1,9 @@
+J'ai terminé ma première petit appli.
+
+Bien pratique pour aidé au suivi et à l'organisation des structures de vos projet et arborescence dans différents domaine.
+
+
+Ce script à pour but d'exporter la structure d'un projet au format .json afin d'avoir un meilleur aperçu de celui-ci et de vous simplifier l'organisation de votre projet.
+
+
+https://buymeacoffee.com/meseneriko/export-project-structure

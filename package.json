@@ -8,6 +8,8 @@
     "build": "npm run build"
   },
   "dependencies": {
+    "ignore": "^7.0.3",
+    "node": "^22.13.0",
     "pkg": "^5.8.1"
   }
 }
