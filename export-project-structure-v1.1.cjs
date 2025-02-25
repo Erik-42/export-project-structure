@@ -1,13 +1,6 @@
 // Si vous souhaitez exporter la structure du projet
 // Entrez dans le terminal: node export-project-structure-v1.1.cjs
 
-// si vous ne souhaitez pas installer Node.js, suivez les instructions suivantes:
-// npm install -g pkg
-// pkg export-project-structure-v1.1.cjs
-//ou
-// pkg --targets node18-linux-x64,node18-macos-x64,node18-win-x64 export-project-structure-v1.1.js
-// ./export-project-structure-linux
-
 const fs = require("fs");
 const path = require("path");
 const ignore = require("ignore");
